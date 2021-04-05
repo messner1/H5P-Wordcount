@@ -1,0 +1,36 @@
+[
+  {
+    "label": "Text to wordcount",
+    "name": "wordcountText",
+    "type": "text",
+    "default": "Hello world!",
+    "description": "Initial example text to wordcount"
+  },
+
+  {
+  "name": "puncStrip",
+  "type": "group",
+  "label": "Puctuation to Strip",
+  "description": "Punctuation to strip.",
+  "fields": [
+  		{
+		  "name": "period",
+		  "type": "boolean",
+		  "label": "Period",
+		  "description": "Strip periods.",
+		  "default": true
+		},
+
+		{
+		  "name": "comma",
+		  "type": "boolean",
+		  "label": "Comma",
+		  "description": "Strip commas.",
+		  "default": true
+		}
+
+  		]
+
+
+	} 
+]

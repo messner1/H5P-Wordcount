@@ -1,0 +1,28 @@
+{
+  "title": "Wordcount",
+  "description": "Wordcount module",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "author": "Craig Messner",
+  "license": "cc-by-sa",
+  "machineName": "H5P.Wordcount",
+    "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 19
+  },
+  "embedTypes": ["div", "iframe"],
+  "preloadedJs": [
+    {
+      "path": "wordcount.js"
+    }
+    
+  ],
+  "preloadedCss": [
+    {
+      "path": "wordcount.css"
+
+    }
+  ]
+}
